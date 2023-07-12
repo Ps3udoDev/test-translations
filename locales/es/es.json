@@ -1,0 +1,25 @@
+{
+  "common": {
+    "websiteManagment": "Gestión de sitios web",
+    "brandManagement": "Gestión de marca",
+    "reputationManagement": "Gestión de reputación",
+    "dashboard": "Dashboard",
+    "getStarted": "Empezar",
+    "getStartedButton": "Empezar gratis",
+    "onlinePresence": "Te ayudaremos a llevar tu presencia en línea al siguiente nivel...",
+    "form": {
+      "error": "Algo salió mal. ¡Inténtalo de nuevo!",
+      "fullNameLabel": "Nombre completo",
+      "fullNamePlaceholder": "Ingresa tu nombre completo",
+      "phoneNumberLabel": "Número de teléfono",
+      "phoneNumberPlaceholder": "Ingresa tu número de teléfono",
+      "emailLabel": "Dirección de correo electrónico",
+      "emailPlaceholder": "Ingresa tu dirección de correo electrónico",
+      "required": "Requerido"
+    },
+    "pricing": {
+      "perMonth": "/mes",
+      "perMonthTooltip": "Pago mensual"
+    }
+  }
+}

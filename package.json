@@ -17,8 +17,12 @@
   },
   "dependencies": {
     "gatsby": "^5.11.0",
+    "gatsby-plugin-react-i18next": "^3.0.1",
+    "gatsby-source-filesystem": "^5.11.0",
+    "i18next": "^23.2.8",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-i18next": "^13.0.2"
   },
   "devDependencies": {
     "@types/node": "^20.3.3",

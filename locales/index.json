@@ -1,0 +1,10 @@
+[
+  {
+    "lang": "en",
+    "archivo": "./common/en.json"
+  },
+  {
+    "lang": "es",
+    "archivo": "./common/es.json"
+  }
+]
