@@ -1,14 +1,12 @@
 import React from "react"
 import Layout from "../components/Layout"
-import Home from "../components/Home"
+import About from "../components/About"
 import { graphql } from "gatsby"
-import Header from "../components/Header"
 
-const IndexPage: React.FC = () => {
+const AboutPage: React.FC = () => {
   return (
     <Layout>
-      <Header />
-      <Home />
+      <About />
     </Layout>
   )
 }
@@ -27,4 +25,4 @@ export const query = graphql`
   }
 `;
 
-export default IndexPage
+export default AboutPage

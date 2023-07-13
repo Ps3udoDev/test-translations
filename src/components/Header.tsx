@@ -1,14 +1,15 @@
-import React from "react"
-import { Link, useI18next } from 'gatsby-plugin-react-i18next';
-interface HeaderProps {
-  children: React.ReactNode;
-  className?: string;
+import {Link, useI18next} from 'gatsby-plugin-react-i18next';
+import PropTypes from 'prop-types';
+import React from 'react';
+
+interface headerProps {
+  siteTitle?: string
 }
 
-const Header: React.FC<HeaderProps> = ({ children, className }) => {
-  const { languages, originalPath } = useI18next();
+const Header: React.FC<headerProps> = ({siteTitle}) => {
+  const {languages, originalPath} = useI18next();
   return (
-    <header>
+    <header className="main-header">
       <h1 style={{margin: 0}}>
         <Link
           to="/"
@@ -16,6 +17,7 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
             color: `white`,
             textDecoration: `none`
           }}>
+          {siteTitle}
         </Link>
       </h1>
       <ul className="languages">
@@ -27,9 +29,8 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
           </li>
         ))}
       </ul>
-      {children}
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
